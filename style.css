@@ -1,0 +1,19 @@
+html {
+	margin: 20px;
+	background-color: #87cefa;
+}
+
+body {
+	font-family: "Tahoma";
+	font-weight: 300;
+	color: white;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+p {
+	font-size: 20px;
+	color: white;
+}
