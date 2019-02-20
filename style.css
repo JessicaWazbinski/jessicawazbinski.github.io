@@ -12,18 +12,22 @@ body {
 h1 {
 	font-size: 50px;
 	text-align: center;
+	background-color: #003366;
 }
 
 h2 {
 	font-size: 35px;
 	text-align: center;
+	background-color: #003366;
 }
 
 h3 {
 	font-size: 28px;
+	background-color: #003366;
 }
 
 p {
 	font-size: 20px;
 	color: white;
+	background-color: #003366;
 }
