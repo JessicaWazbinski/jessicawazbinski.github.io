@@ -3,6 +3,30 @@ html {
 	background-color: #87cefa;
 }
 
+#aboutme {
+	font-size: 12px;
+}
+
+#profiles {
+	font-size: 12px;
+}
+
+#edu {
+	font-size: 12px;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
 body {
 	font-family: "Tahoma";
 	font-weight: 300;
@@ -11,25 +35,21 @@ body {
 
 h1 {
 	font-size: 50px;
-	text-align: center;
 	background-color: #003366;
 }
 
 h2 {
 	font-size: 35px;
-	text-align: center;
 	background-color: #003366;
 }
 
 h3 {
 	font-size: 20px;
-	background-color: #003366;
 }
 
 h4 {
 	font-size: 18px;
 	background-color: #003366;
-	text-align: center;
 }
 
 p {
