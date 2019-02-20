@@ -22,12 +22,18 @@ h2 {
 }
 
 h3 {
-	font-size: 28px;
+	font-size: 20px;
 	background-color: #003366;
 }
 
+h4 {
+	font-size: 18px;
+	background-color: #003366;
+	text-align: center;
+}
+
 p {
-	font-size: 20px;
+	font-size: 15;
 	color: white;
 	background-color: #003366;
 }
