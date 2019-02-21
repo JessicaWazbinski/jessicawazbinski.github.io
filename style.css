@@ -1,6 +1,6 @@
 html {
 	margin: 20px;
-	background-color: #87cefa;
+	background-color: white;
 }
 
 #aboutme {
@@ -30,17 +30,17 @@ html {
 body {
 	font-family: "Tahoma";
 	font-weight: 300;
-	color: white;
+	font-color: black;
 }
 
 h1 {
 	font-size: 50px;
-	background-color: #003366;
+	background-color: #BFBFBF;
 }
 
 h2 {
 	font-size: 35px;
-	background-color: #003366;
+	background-color: #BFBFBF;
 }
 
 h3 {
@@ -49,11 +49,11 @@ h3 {
 
 h4 {
 	font-size: 18px;
-	background-color: #003366;
+	background-color: #BFBFBF;
 }
 
 p {
 	font-size: 15;
 	color: white;
-	background-color: #003366;
+	background-color: #BFBFBF;
 }
