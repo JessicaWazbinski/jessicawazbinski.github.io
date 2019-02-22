@@ -1,6 +1,6 @@
 html {
 	margin: 20px;
-	background-color: white;
+	background-color: #4a4949;
 }
 
 #aboutme {
@@ -30,7 +30,7 @@ html {
 body {
 	font-family: "Tahoma";
 	font-weight: 300;
-	font-color: black;
+	font-color: white;
 }
 
 h1 {
@@ -54,11 +54,11 @@ h4 {
 
 p {
 	font-size: 15;
-	color: white;
-	background-color: #BFBFBF;
+	color: black;
 }
 
-.resize {
-	width: 150;
-	height: auto;
+.about {
+	font-size: 15;
+	color: black;
+	font-family: Tahoma;
 }
