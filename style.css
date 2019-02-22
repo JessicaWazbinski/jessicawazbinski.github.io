@@ -35,6 +35,11 @@ a {
 	text-align: center;
 }
 
+.align {
+	display: flex;
+	align-items: center;
+}
+
 body {
 	font-family: "Tahoma";
 	font-weight: 300;
@@ -71,5 +76,4 @@ p {
 	font-size: 15;
 	font-color: white;
 	font-family: Tahoma;
-	float: left;
 }
