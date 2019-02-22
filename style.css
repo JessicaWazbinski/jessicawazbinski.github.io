@@ -40,8 +40,11 @@ a {
 	align-items: center;
 }
 
-.lmargin {
-	margin-left: 80px;
+.border {
+	border: 3px;
+	border-style: dashed;
+	border-color: black;
+	padding: 1em;
 }
 
 body {
