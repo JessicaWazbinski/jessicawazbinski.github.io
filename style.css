@@ -3,6 +3,17 @@ html {
 	background-color: #2F4F4F;
 }
 
+#aboutme {
+	font-size: 12px;
+}
+
+#profiles {
+	font-size: 12px;
+}
+
+#edu {
+	font-size: 12px;
+}
 
 a {
 	color: white;
@@ -30,10 +41,10 @@ a {
 }
 
 .border {
-	border: 1px !important;
-	border-style: dashed !important;
-	border-color: #b1a688 !important;
-	padding: 0.5em !important;
+	border: 1px;
+	border-style: dashed;
+	border-color: #b1a688;
+	padding: 0.5em;
 }
 
 body {
