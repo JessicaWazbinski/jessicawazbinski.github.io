@@ -1,6 +1,6 @@
 html {
 	margin: 20px;
-	background-color: #4a4949;
+	background-color: #0f0f0f;
 }
 
 #aboutme {
@@ -13,6 +13,22 @@ html {
 
 #edu {
 	font-size: 12px;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: red;
+}
+
+.inline {
+	display: inline;
 }
 
 .left {
@@ -54,8 +70,7 @@ h4 {
 
 p {
 	font-size: 15;
-	color: black;
-}
+	color: white;
 
 .about {
 	font-size: 15;
