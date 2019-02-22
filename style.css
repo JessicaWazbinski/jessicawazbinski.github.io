@@ -1,6 +1,6 @@
 html {
 	margin: 20px;
-	background-color: #0f0f0f;
+	background-color: black;
 }
 
 #aboutme {
@@ -16,15 +16,15 @@ html {
 }
 
 a:link {
-	color: white;
+	font-color: white;
 }
 
 a:visited {
-	color: white;
+	font-color: white;
 }
 
 a:hover {
-	color: red;
+	font-color: red;
 }
 
 .inline {
@@ -51,12 +51,12 @@ body {
 
 h1 {
 	font-size: 50px;
-	background-color: #BFBFBF;
+	background-color: #A80000;
 }
 
 h2 {
 	font-size: 35px;
-	background-color: #BFBFBF;
+	background-color: #A80000;
 }
 
 h3 {
@@ -65,15 +65,15 @@ h3 {
 
 h4 {
 	font-size: 18px;
-	background-color: #BFBFBF;
+	background-color: #A80000;
 }
 
 p {
 	font-size: 15;
-	color: white;
+	font-color: white;
 
 .about {
 	font-size: 15;
-	color: black;
+	font-color: white;
 	font-family: Tahoma;
 }
