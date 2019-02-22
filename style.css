@@ -50,38 +50,36 @@ a {
 body {
 	font-family: "Tahoma";
 	font-weight: 300;
-	font-color: black;
 }
 
 h1 {
 	font-size: 50px;
 	background-color: #b1a688;
-	font-color: black;
 }
 
 h2 {
 	font-size: 35px;
 	background-color: #b1a688;
-	font-color: black;
+	font-color: #080808;
 }
 
 h3 {
 	font-size: 20px;
-	font-color: black;
+	font-color: #080808;
 }
 
 h4 {
 	font-size: 18px;
 	background-color: #b1a688;
-	font-color: black;
+	font-color: #080808;
 
 p {
 	font-size: 15;
-	font-color: black;
+	font-color: #080808;
 }
 
 .about {
 	font-size: 15;
-	font-color: black;
+	font-color: #080808;
 	font-family: Tahoma;
 }
