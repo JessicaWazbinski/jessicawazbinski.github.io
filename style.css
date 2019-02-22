@@ -24,7 +24,7 @@ a {
 	text-align: center;
 }
 
-#align {
+.align {
 	display: flex;
 	align-items: center;
 }
