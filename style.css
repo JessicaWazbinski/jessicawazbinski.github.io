@@ -43,7 +43,6 @@ body {
 h1 {
 	font-size: 50px;
 	background-color: #A80000;
-	font-color: black;
 }
 
 h2 {
@@ -65,16 +64,11 @@ h4 {
 
 p {
 	font-size: 15;
+	font-color: white;
 }
 
 .about {
 	font-size: 15;
+	font-color: white;
 	font-family: Tahoma;
-	float: left;
-}
-
-.img {
-	height: 270px;
-	width: auto;
-	float: left;
 }
