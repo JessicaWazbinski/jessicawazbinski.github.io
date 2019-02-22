@@ -40,6 +40,10 @@ a {
 	align-items: center;
 }
 
+.rtmargin {
+	margin-right: 50px;
+}
+
 body {
 	font-family: "Tahoma";
 	font-weight: 300;
