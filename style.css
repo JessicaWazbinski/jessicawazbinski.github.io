@@ -24,12 +24,12 @@ a {
 	text-align: center;
 }
 
-.align {
+#align {
 	display: flex;
 	align-items: center;
 }
 
-#border {
+.border {
 	border: 1px;
 	border-style: dashed;
 	border-color: #b1a688;
