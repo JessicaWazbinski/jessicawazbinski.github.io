@@ -71,3 +71,9 @@ p {
 	font-color: white !important;
 	font-family: Tahoma;
 }
+
+.img {
+	height: 270;
+	width: auto;
+	float: left;
+}
