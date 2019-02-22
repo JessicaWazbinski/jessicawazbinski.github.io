@@ -70,10 +70,11 @@ p {
 .about {
 	font-size: 15;
 	font-family: Tahoma;
+	float: left;
 }
 
 .img {
-	height: 270;
+	height: 270px;
 	width: auto;
 	float: left;
 }
