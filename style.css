@@ -15,16 +15,8 @@ html {
 	font-size: 12px;
 }
 
-a:link {
-	font-color: white;
-}
-
-a:visited {
-	font-color: white;
-}
-
-a:hover {
-	font-color: red;
+a {
+	color: white;
 }
 
 .inline {
@@ -70,11 +62,11 @@ h4 {
 
 p {
 	font-size: 15;
-	font-color: white;
+	font-color: white !important;
 }
 
 .about {
 	font-size: 15;
-	font-color: white;
+	font-color: white !important;
 	font-family: Tahoma;
 }
