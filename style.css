@@ -41,7 +41,7 @@ a {
 }
 
 .border {
-	border: 3px;
+	border: 1px;
 	border-style: dashed;
 	border-color: black;
 	padding: 0.5em;
