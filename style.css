@@ -16,7 +16,7 @@ html {
 }
 
 a {
-	color: white;
+	color: #b1a688;
 }
 
 .inline {
@@ -54,25 +54,24 @@ body {
 
 h1 {
 	font-size: 50px;
-	background-color: #A80000;
+	background-color: #b1a688;
 }
 
 h2 {
 	font-size: 35px;
-	background-color: #A80000;
-	font-color: white;
+	background-color: #b1a688;
+	font-color: black;
 }
 
 h3 {
 	font-size: 20px;
-	font-color: white;
+	font-color: black;
 }
 
 h4 {
 	font-size: 18px;
-	background-color: #A80000;
-	font-color: white;
-}
+	background-color: #b1a688;
+	font-color: black;
 
 p {
 	font-size: 15;
@@ -81,6 +80,6 @@ p {
 
 .about {
 	font-size: 15;
-	font-color: white;
+	font-color: black;
 	font-family: Tahoma;
 }
