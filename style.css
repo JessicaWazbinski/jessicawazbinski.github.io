@@ -60,26 +60,26 @@ h1 {
 h2 {
 	font-size: 35px;
 	background-color: #b1a688;
-	font-color: #080808;
+	font-color: #080808 !important;
 }
 
 h3 {
 	font-size: 20px;
-	font-color: #080808;
+	font-color: #080808 !important;
 }
 
 h4 {
 	font-size: 18px;
 	background-color: #b1a688;
-	font-color: #080808;
+	font-color: #080808 !important;
 
 p {
 	font-size: 15;
-	font-color: #080808;
+	font-color: #080808 !important;
 }
 
 .about {
 	font-size: 15;
-	font-color: #080808;
+	font-color: #080808 !important;
 	font-family: Tahoma;
 }
