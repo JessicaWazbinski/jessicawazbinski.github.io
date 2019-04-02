@@ -15,12 +15,8 @@ html {
 	font-size: 12px;
 }
 
-a:link {
+.link {
 	color: #080808
-}
-
-a:visited {
-	color: #080808;
 }
 
 .inline {
