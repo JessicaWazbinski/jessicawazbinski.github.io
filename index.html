@@ -10,19 +10,18 @@
 <body>
 	<canvas id="canvas" width="300" height="150" style="border:1px solid #080808"></canvas>
 	<script type="text/javascript">
-		var c = document.getElementById("canvas");
-		var ctx = c.getContext("2d");
-		ctx.rect(20, 20, 150, 100);
-		ctx.stroke();
-		window.onload = digitized();
-		function startTime() {
-			var time = new Date();
+		function clock() {
+			var time = new time();
 			var hr = time.getHours();
 			var min = time.getMinutes();
-			clockDiv.innerText = hr + ":" + min;
+			var sec = time.getSeconds();
+
+			var set = hr + ":" + min + ":" + sec;
+			document.getElementById('canvas').innerText= set;
+			document.getElementById('canvas').textContent = set;
 		}
-		displayTime();
-		setInterval( displayTime, 1000);
+
+		showTime():
 	</script>
 	<h1 class="center">Portfolio</h1>
 	<div>
