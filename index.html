@@ -10,14 +10,10 @@
 <body>
 	<canvas id="myCanvas" height="200" width="200"></canvas>
 	<script type="text/javascript">
-		function draw() {
-			var canvas = document.getElementById("myCanvas");
-			var ctx = canvas.getContext("2d");
-			ctx.beginPath();
-		    ctx.rect(50, 50, 100, 100);
-		    ctx.fillStyle = '#000000';
-		    ctx.fill();
-		}
+		var canvas = document.getElementById("myCanvas");
+		var ctx = canvas.getContext("2d");
+		ctx.rect(0, 0, 150, 75);
+		ctx.fillStyle = '#FF0000';
 	</script>
 	
 	<h1 class="center">Portfolio</h1>
