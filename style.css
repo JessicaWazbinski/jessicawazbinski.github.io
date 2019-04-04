@@ -35,6 +35,12 @@ html {
 	text-align: center;
 }
 
+.ctr {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 .align {
 	display: flex;
 	align-items: center;
