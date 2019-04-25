@@ -288,11 +288,24 @@ var ctx = c.getContext("2d");
 <div>
 	<h2 class="center">Caesar Cipher</h2>
 	<script type="text/javascript">
-		function cipher() {
-
+		function cipher(str) {
+			var solved = "";
+			for (var i = 0; i < str.length; i++) {
+				var asciiNum = str[i].charCodeAt();
+				if (asciiNum >= 65 && asciiNum <= 90) {
+					solved += String.fromCharCode(asciiNum + 2);
+				}
+			}
+			return solved;
 		}
+		num("A");
 
 	</script>
+</div>
+
+<div>
+	<h3>Accessibility</h3>
+	<p>Alternative, descriptive text for images is provided in case people using browers that do not support images.</p>
 </div>
 
 </body>
