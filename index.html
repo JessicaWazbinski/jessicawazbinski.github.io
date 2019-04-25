@@ -287,21 +287,10 @@ var ctx = c.getContext("2d");
 
 <div>
 	<h2 class="center">Caesar Cipher</h2>
+	<input type="text" id="input" value="Type Here">
+	<button type="button" onclick="cipher">Submit</button>
 	<script type="text/javascript">
-		function num(str) {
-  var solved = "";
-  for (var i = 0; i < str.length; i++) {
-    var asciiNum = str[i].charCodeAt();
-    if (asciiNum >= 65 && asciiNum <= 77) {
-      solved += String.fromCharCode(asciiNum + 13);
-    } else if (asciiNum >= 78 && asciiNum <=90) {
-      solved += String.fromCharCode(asciiNum - 13); 
-      }
-  }
-  return solved;
-}
-
-num("DHF");
+		
 	</script>
 </div>
 
