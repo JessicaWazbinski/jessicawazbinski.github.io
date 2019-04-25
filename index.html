@@ -290,7 +290,22 @@ var ctx = c.getContext("2d");
 	<input type="text" id="input" value="Type Here">
 	<button type="button" onclick="cipher">Submit</button>
 	<script type="text/javascript">
-		
+		function cipher(str) {
+			var num = 0;
+			var new = "";
+
+			for (var i = 0; i < str.length; i++) {
+				num = str.charCodeAt(i);
+				if (num >=65) {
+					num += 10;
+				}
+				if (num > 90) {
+					num -= 10;
+				}
+				new += String.fromCharCode(num);
+			}
+			return new;
+		}
 	</script>
 </div>
 
