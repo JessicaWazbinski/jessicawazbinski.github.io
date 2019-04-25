@@ -287,20 +287,21 @@ var ctx = c.getContext("2d");
 
 <div>
 	<h2 class="center">Caesar Cipher</h2>
-	<input type="text" id="myText" value="Type Here">
+	<input type="text" id="input" value="Type Here">
 	<button type="button" onclick="cipher">Submit</button>
+	<p id="output"></p>
 	<script type="text/javascript">
-		function cipher(str) {
-			var solved = "";
-			for (var i = 0; i < str.length; i++) {
-				var asciiNum = str[i].charCodeAt();
-				if (asciiNum >= 65 && asciiNum <= 90) {
-					solved += String.fromCharCode(asciiNum + 2);
-				}
+		function cipher() {
+			var inCipher, outCipher;
+			inCipher = document.getElementById("input").value;
+			outCipher = "";
+			var start = 0;
+			while (start < 3) {
+				outCipher = outCipher + String.fromCharCode(inCipher.charCodeAt(start) - 3);
+				start = start++;
 			}
-			return solved;
+			document.getElementById("output").innerHTML = outCipher;
 		}
-		num("A");
 
 	</script>
 </div>
